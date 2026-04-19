@@ -1,0 +1,241 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "/Users/raikumar/Desktop/MyProject/ARPS/assam-rifles-school-keithelmanbi/src/styles.css": {
+    "file": "assets/styles-b2uD7B2O.css",
+    "src": "/Users/raikumar/Desktop/MyProject/ARPS/assam-rifles-school-keithelmanbi/src/styles.css"
+  },
+  "_PageShell-5huhocvi.js": {
+    "file": "assets/PageShell-5huhocvi.js",
+    "name": "PageShell",
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_router-BNCU0X4U.js"
+    ],
+    "assets": [
+      "assets/crest-Cgj4M9Xa.png"
+    ]
+  },
+  "_arrow-right-BW9LqXxs.js": {
+    "file": "assets/arrow-right-BW9LqXxs.js",
+    "name": "arrow-right",
+    "imports": [
+      "_PageShell-5huhocvi.js"
+    ]
+  },
+  "_router-BNCU0X4U.js": {
+    "file": "assets/router-BNCU0X4U.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js"
+    ],
+    "dynamicImports": [
+      "src/routes/notifications.tsx?tsr-split=component",
+      "src/routes/infrastructure.tsx?tsr-split=component",
+      "src/routes/contact.tsx?tsr-split=component",
+      "src/routes/admissions.tsx?tsr-split=component",
+      "src/routes/activities.tsx?tsr-split=component",
+      "src/routes/achievements.tsx?tsr-split=component",
+      "src/routes/academics.tsx?tsr-split=component",
+      "src/routes/about.tsx?tsr-split=component",
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-b2uD7B2O.css"
+    ]
+  },
+  "_sports-field-rzHYrvWx.js": {
+    "file": "assets/sports-field-rzHYrvWx.js",
+    "name": "sports-field",
+    "assets": [
+      "assets/science-lab-B82HGBfw.jpg",
+      "assets/library-Br60y6FG.jpg",
+      "assets/sports-field-NibRO0tW.jpg"
+    ]
+  },
+  "_students-classroom-2SNJ32vO.js": {
+    "file": "assets/students-classroom-2SNJ32vO.js",
+    "name": "students-classroom",
+    "assets": [
+      "assets/students-classroom-CpVexVIX.jpg"
+    ]
+  },
+  "_trophy-DQ2eXeof.js": {
+    "file": "assets/trophy-DQ2eXeof.js",
+    "name": "trophy",
+    "imports": [
+      "_PageShell-5huhocvi.js"
+    ]
+  },
+  "_worker-entry-BXkh9hnW.js": {
+    "file": "assets/worker-entry-BXkh9hnW.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-BNCU0X4U.js",
+      "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts": {
+    "file": "assets/start-HYkvq4Ni.js",
+    "name": "start",
+    "src": "node_modules/@tanstack/react-start/dist/plugin/default-entry/start.ts",
+    "isDynamicEntry": true
+  },
+  "src/assets/crest.png": {
+    "file": "assets/crest-Cgj4M9Xa.png",
+    "src": "src/assets/crest.png"
+  },
+  "src/assets/hero-campus.jpg": {
+    "file": "assets/hero-campus-DEvjOkxz.jpg",
+    "src": "src/assets/hero-campus.jpg"
+  },
+  "src/assets/library.jpg": {
+    "file": "assets/library-Br60y6FG.jpg",
+    "src": "src/assets/library.jpg"
+  },
+  "src/assets/science-lab.jpg": {
+    "file": "assets/science-lab-B82HGBfw.jpg",
+    "src": "src/assets/science-lab.jpg"
+  },
+  "src/assets/sports-field.jpg": {
+    "file": "assets/sports-field-NibRO0tW.jpg",
+    "src": "src/assets/sports-field.jpg"
+  },
+  "src/assets/students-classroom.jpg": {
+    "file": "assets/students-classroom-CpVexVIX.jpg",
+    "src": "src/assets/students-classroom.jpg"
+  },
+  "src/routes/about.tsx?tsr-split=component": {
+    "file": "assets/about-BoKtLpeX.js",
+    "name": "about",
+    "src": "src/routes/about.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_students-classroom-2SNJ32vO.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/academics.tsx?tsr-split=component": {
+    "file": "assets/academics-BXsH9O3a.js",
+    "name": "academics",
+    "src": "src/routes/academics.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/achievements.tsx?tsr-split=component": {
+    "file": "assets/achievements-QPj38F_T.js",
+    "name": "achievements",
+    "src": "src/routes/achievements.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_trophy-DQ2eXeof.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/activities.tsx?tsr-split=component": {
+    "file": "assets/activities-CI5TL8D0.js",
+    "name": "activities",
+    "src": "src/routes/activities.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_trophy-DQ2eXeof.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/admissions.tsx?tsr-split=component": {
+    "file": "assets/admissions-CRSA9JIt.js",
+    "name": "admissions",
+    "src": "src/routes/admissions.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_router-BNCU0X4U.js",
+      "_PageShell-5huhocvi.js",
+      "_arrow-right-BW9LqXxs.js"
+    ]
+  },
+  "src/routes/contact.tsx?tsr-split=component": {
+    "file": "assets/contact-DIqw4PQn.js",
+    "name": "contact",
+    "src": "src/routes/contact.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-qrbXwMVR.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_router-BNCU0X4U.js",
+      "_PageShell-5huhocvi.js",
+      "_students-classroom-2SNJ32vO.js",
+      "_sports-field-rzHYrvWx.js",
+      "_arrow-right-BW9LqXxs.js"
+    ],
+    "assets": [
+      "assets/hero-campus-DEvjOkxz.jpg"
+    ]
+  },
+  "src/routes/infrastructure.tsx?tsr-split=component": {
+    "file": "assets/infrastructure-R8yXuFtO.js",
+    "name": "infrastructure",
+    "src": "src/routes/infrastructure.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_sports-field-rzHYrvWx.js",
+      "_students-classroom-2SNJ32vO.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "src/routes/notifications.tsx?tsr-split=component": {
+    "file": "assets/notifications-DhyfCAas.js",
+    "name": "notifications",
+    "src": "src/routes/notifications.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js",
+      "_PageShell-5huhocvi.js",
+      "_router-BNCU0X4U.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-DI_6m2hB.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BXkh9hnW.js"
+    ]
+  }
+}
