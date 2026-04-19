@@ -1,10 +1,20 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Award, BookOpen, GraduationCap, Microscope, Sparkles, Users } from "lucide-react";
 import { PageShell } from "@/components/site/PageShell";
+import { HeroSlideshow } from "@/components/site/HeroSlideshow";
 import heroImg from "@/assets/hero-campus.jpg";
 import classroomImg from "@/assets/students-classroom.jpg";
 import sportsImg from "@/assets/sports-field.jpg";
 import labImg from "@/assets/science-lab.jpg";
+import libraryImg from "@/assets/library.jpg";
+
+const heroSlides = [
+  { src: heroImg, alt: "ARPS Keithelmanbi campus at golden hour" },
+  { src: classroomImg, alt: "Students in a smart classroom" },
+  { src: labImg, alt: "Science laboratory in session" },
+  { src: sportsImg, alt: "Hill-side sports field" },
+  { src: libraryImg, alt: "School library" },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -46,13 +56,7 @@ function HomePage() {
     <PageShell>
       {/* HERO */}
       <section className="relative -mt-20 min-h-[100svh] overflow-hidden">
-        <img
-          src={heroImg}
-          alt="ARPS Keithelmanbi campus at golden hour"
-          className="absolute inset-0 h-full w-full object-cover"
-          width={1920}
-          height={1080}
-        />
+        <HeroSlideshow slides={heroSlides} />
         <div className="absolute inset-0 bg-gradient-hero" aria-hidden />
         <div className="absolute inset-0 bg-gradient-to-t from-deep via-transparent to-transparent" aria-hidden />
 
