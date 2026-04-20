@@ -31,7 +31,7 @@ export function Header() {
       className={`fixed inset-x-0 top-0 z-50 transition-smooth ${
         scrolled
           ? "border-b border-border/60 bg-background/85 backdrop-blur-xl"
-          : "bg-transparent"
+          : "bg-deep/40 backdrop-blur-md"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
@@ -44,10 +44,10 @@ export function Header() {
             height={44}
           />
           <div className="leading-tight">
-            <div className="font-display text-[15px] font-semibold tracking-tight text-primary">
+            <div className={`font-display text-[15px] font-semibold tracking-tight transition-smooth ${scrolled ? "text-primary" : "text-primary-foreground"}`}>
               Assam Rifles Public School
             </div>
-            <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
+            <div className={`text-[10px] uppercase tracking-[0.18em] transition-smooth ${scrolled ? "text-muted-foreground" : "text-primary-foreground/75"}`}>
               Keithelmanbi · Manipur
             </div>
           </div>
@@ -58,7 +58,11 @@ export function Header() {
             <Link
               key={item.to}
               to={item.to}
-              className="rounded-full px-3 py-2 text-sm font-medium text-foreground/75 transition-smooth hover:bg-secondary hover:text-foreground"
+              className={`rounded-full px-3 py-2 text-sm font-medium transition-smooth ${
+                scrolled
+                  ? "text-foreground/75 hover:bg-secondary hover:text-foreground"
+                  : "text-primary-foreground/85 hover:bg-primary-foreground/15 hover:text-primary-foreground"
+              }`}
               activeProps={{
                 className:
                   "rounded-full px-3 py-2 text-sm font-medium bg-primary text-primary-foreground hover:bg-primary",
