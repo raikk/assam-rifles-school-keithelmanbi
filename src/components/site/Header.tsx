@@ -31,7 +31,7 @@ export function Header() {
       className={`fixed inset-x-0 top-0 z-50 transition-smooth ${
         scrolled
           ? "border-b border-border/60 bg-background/85 backdrop-blur-xl"
-          : "bg-transparent"
+          : "bg-deep/40 backdrop-blur-md"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3 lg:px-8">
